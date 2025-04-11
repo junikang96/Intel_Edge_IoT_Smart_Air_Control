@@ -1,4 +1,4 @@
-# 🌬️ Smart Air Control System (EnviroControl_Embedded)
+# 🌬️ Smart Air Control System
 
 환경 센서를 이용해 실내 공기 질을 측정하고, 서버로 데이터를 전송하여 환기 팬을 자동으로 제어하는 임베디드 공조 시스템입니다.  
 STM32, Raspberry Pi, Arduino로 구성되었습니다.
