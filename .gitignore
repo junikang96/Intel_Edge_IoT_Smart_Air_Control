@@ -1,0 +1,39 @@
+# 🧹 STM32CubeIDE build 관련 파일
+/Debug/
+/Release/
+/build/
+/*.bin
+/*.hex
+/*.elf
+/*.map
+
+# IDE 자동 생성 설정
+/.settings/
+/.cproject
+.project
+.ipr
+.iws
+.idea/
+
+# 로그 및 임시파일
+*.log
+*.launch
+*.bak
+*.swp
+*.tmp
+*.user
+*.sublime-workspace
+
+# 기타 파일
+*.o
+*.d
+*.a
+*.out
+
+# 환경 설정 or 보안 파일 (예: API 키)
+.env
+
+# OS 쓰레기
+.DS_Store
+Thumbs.db
+
