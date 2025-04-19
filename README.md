@@ -65,30 +65,45 @@
 
 ---
 
-## 🎥 시연 영상 (추후 업데이트 예정)
+## 🎥 시연 영상
 
 - [👉 팬 자동 제어 및 수동 제어 모드 시연 영상](https://youtube.com/shorts/vbZUc9HCvQQ?feature=share)
 
 ---
 
+## 📸 시스템 시연 사진
+
+**Smart Air Control Embedded System**
+<img src="./images/aircontrol_system.jpg" width="500px" />
+
+---
+
 ## 📦 프로젝트 구성
 
-```plaintext
-.
-├── arduino/                 # 환경 센서 측정용 아두이노 코드
-│   └── mini_project.ino    
+```bash
+Intel_Edge_IoT_Smart_Air_Control/
+├── arduino/                 # 환경 센서 데이터 측정용 아두이노 코드
+│   └── mini_project.ino
 │
-├── raspberrypi/             # 서버 및 블루투스-아두이노 중계기 역할
-│   ├── Bluetooth_client/    
-│   ├── server/              
-│   └── sql_client_/         
+├── raspberrypi/             # 서버 및 블루투스 통신 처리
+│   ├── Bluetooth_client/    # 아두이노 → 라즈베리파이 블루투스 통신
+│   ├── server/              # 센서 데이터 수신 및 제어 명령 송신 서버
+│   └── sql_client_/         # MySQL 연동 및 DB 저장 클라이언트
 │
-├── stm32/                   # 팬 제어 및 Wi-Fi 통신 MCU
-│   ├── Core/               
+├── stm32/                   # 팬 제어 및 Wi-Fi 통신 담당 STM32 코드
+│   ├── Core/                
 │   ├── Drivers/             
-│   ├── mini_project_final.ioc     
-│   ├── STM32F411RETX_FLASH.ld     
-│   └── STM32F411RETX_RAM.ld       
+│   ├── mini_project_final.ioc   
+│   ├── STM32F411RETX_FLASH.ld   
+│   └── STM32F411RETX_RAM.ld     
+│
+├── images/                  # 프로젝트 관련 시연 사진
+│   └── aircontrol_system.jpg
+│
+├── .gitignore                
+├── LICENSE                   
+└── README.md                
+
 ```
 
 ---
