@@ -74,6 +74,9 @@
 ## 📸 시스템 시연 사진
 
 **Smart Air Control Embedded System**
+
+<br>
+
 <img src="./images/aircontrol_system.jpg" width="500px" />
 
 ---
