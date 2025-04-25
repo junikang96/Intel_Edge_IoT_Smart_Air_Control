@@ -10,7 +10,7 @@
 - **Bluetooth 통신**을 통해 Raspberry Pi 서버에 센서 데이터 전송
 - **Raspberry Pi**에서 서버 수신 및 MySQL DB 저장
 - **STM32**를 이용해 서버 명령 수신 후 환기 팬 속도 제어
-- **Wi-Fi 모듈 (ESP8266)**을 통한 TCP/IP 소켓 통신
+- **Wi-Fi 모듈** (ESP8266)을 통한 TCP/IP 소켓 통신
 
 ---
 
